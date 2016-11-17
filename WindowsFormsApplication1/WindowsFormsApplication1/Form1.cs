@@ -16,6 +16,7 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+   
         public static double sum(double a, double b)
         {
             return a + b;
@@ -54,6 +55,25 @@ namespace WindowsFormsApplication1
         private void T2_button4_Click(object sender, EventArgs e)
         {
             T2_textBox3.Text = Convert.ToString(umnog(Convert.ToDouble(T2_textBox1.Text), Convert.ToDouble(T2_textBox2.Text)));
+        }
+
+        private void T2_button2_Click(object sender, EventArgs e)
+        {
+            T2_textBox3.Text = Convert.ToString(razn(Convert.ToDouble(T2_textBox1.Text), Convert.ToDouble(T2_textBox2.Text)));
+        }
+
+        private void T2_button5_Click(object sender, EventArgs e)
+        {
+            T2_textBox3.Text = Convert.ToString(del(Convert.ToDouble(T2_textBox1.Text), Convert.ToDouble(T2_textBox2.Text)));
+        }
+        private void T2_button3_Click(object sender, EventArgs e)
+        {
+            T2_textBox3.Text = Convert.ToString(step(Convert.ToDouble(T2_textBox1.Text), Convert.ToDouble(T2_textBox2.Text)));
+        }
+
+        private void T2_button6_Click(object sender, EventArgs e)
+        {
+            T2_textBox3.Text = Convert.ToString(koren(Convert.ToDouble(T2_textBox1.Text), Convert.ToDouble(T2_textBox2.Text)));
         }
     }
 }

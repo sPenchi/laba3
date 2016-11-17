@@ -88,6 +88,7 @@
             this.T2_button6.TabIndex = 14;
             this.T2_button6.Text = "Корень";
             this.T2_button6.UseVisualStyleBackColor = true;
+            this.T2_button6.Click += new System.EventHandler(this.T2_button6_Click);
             // 
             // T2_button3
             // 
@@ -97,6 +98,7 @@
             this.T2_button3.TabIndex = 13;
             this.T2_button3.Text = "В степень";
             this.T2_button3.UseVisualStyleBackColor = true;
+            this.T2_button3.Click += new System.EventHandler(this.T2_button3_Click);
             // 
             // T2_button5
             // 
@@ -106,6 +108,7 @@
             this.T2_button5.TabIndex = 16;
             this.T2_button5.Text = "Деление";
             this.T2_button5.UseVisualStyleBackColor = true;
+            this.T2_button5.Click += new System.EventHandler(this.T2_button5_Click);
             // 
             // T2_button2
             // 
@@ -115,6 +118,7 @@
             this.T2_button2.TabIndex = 15;
             this.T2_button2.Text = "Вычитание";
             this.T2_button2.UseVisualStyleBackColor = true;
+            this.T2_button2.Click += new System.EventHandler(this.T2_button2_Click);
             // 
             // Form1
             // 
