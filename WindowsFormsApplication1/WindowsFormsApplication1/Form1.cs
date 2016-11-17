@@ -16,5 +16,45 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+        
+        public static double sum(double a, double b)
+        {
+            return a + b;
+        }
+
+        public static double razn(double a, double b)
+        {
+            return a - b;
+        }
+
+        public static double umnog(double a, double b)
+        {
+            return a * b;
+        }
+
+        public static double del(double a, double b)
+        {
+            return a / b;
+        }
+
+        public static double step(double a, double b)
+        {
+            return Math.Pow(a, b);
+        }
+
+        public static double koren(double a, double b)
+        {
+            return Math.Pow(a, 1 / b);
+        }
+
+        private void T2_button3_Click(object sender, EventArgs e)
+        {
+            T2_textBox3.Text = Convert.ToString(step(Convert.ToDouble(T2_textBox1.Text), Convert.ToDouble(T2_textBox2.Text)));
+        }
+
+        private void T2_button6_Click(object sender, EventArgs e)
+        {
+            T2_textBox3.Text = Convert.ToString(koren(Convert.ToDouble(T2_textBox1.Text), Convert.ToDouble(T2_textBox2.Text)));
+        }
     }
 }
