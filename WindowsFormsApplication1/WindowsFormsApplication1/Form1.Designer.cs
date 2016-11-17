@@ -35,6 +35,8 @@
             this.T2_textBox3 = new System.Windows.Forms.TextBox();
             this.T2_button6 = new System.Windows.Forms.Button();
             this.T2_button3 = new System.Windows.Forms.Button();
+            this.T2_button5 = new System.Windows.Forms.Button();
+            this.T2_button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // T2_button4
@@ -96,11 +98,31 @@
             this.T2_button3.Text = "В степень";
             this.T2_button3.UseVisualStyleBackColor = true;
             // 
+            // T2_button5
+            // 
+            this.T2_button5.Location = new System.Drawing.Point(346, 257);
+            this.T2_button5.Name = "T2_button5";
+            this.T2_button5.Size = new System.Drawing.Size(75, 23);
+            this.T2_button5.TabIndex = 16;
+            this.T2_button5.Text = "Деление";
+            this.T2_button5.UseVisualStyleBackColor = true;
+            // 
+            // T2_button2
+            // 
+            this.T2_button2.Location = new System.Drawing.Point(83, 257);
+            this.T2_button2.Name = "T2_button2";
+            this.T2_button2.Size = new System.Drawing.Size(75, 23);
+            this.T2_button2.TabIndex = 15;
+            this.T2_button2.Text = "Вычитание";
+            this.T2_button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(504, 537);
+            this.Controls.Add(this.T2_button5);
+            this.Controls.Add(this.T2_button2);
             this.Controls.Add(this.T2_button6);
             this.Controls.Add(this.T2_button3);
             this.Controls.Add(this.T2_textBox3);
@@ -124,6 +146,8 @@
         private System.Windows.Forms.TextBox T2_textBox3;
         private System.Windows.Forms.Button T2_button6;
         private System.Windows.Forms.Button T2_button3;
+        private System.Windows.Forms.Button T2_button5;
+        private System.Windows.Forms.Button T2_button2;
     }
 }
 
